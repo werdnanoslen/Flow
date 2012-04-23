@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="80">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>affine.h</itemPath>
+      <itemPath>fixed.h</itemPath>
+      <itemPath>gamebg.h</itemPath>
+      <itemPath>loop.h</itemPath>
+      <itemPath>menu.h</itemPath>
+      <itemPath>myLib.h</itemPath>
+      <itemPath>pause.h</itemPath>
+      <itemPath>sprites.h</itemPath>
+      <itemPath>startbg.h</itemPath>
+      <itemPath>strike1.h</itemPath>
+      <itemPath>trigLUT.h</itemPath>
+      <itemPath>win.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>gamebg.bmp</itemPath>
+      <itemPath>loop.wav</itemPath>
+      <itemPath>menu.bmp</itemPath>
+      <itemPath>pause.bmp</itemPath>
+      <itemPath>sprites.bmp</itemPath>
+      <itemPath>startbg.bmp</itemPath>
+      <itemPath>strike1.wav</itemPath>
+      <itemPath>win.bmp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>affine.c</itemPath>
+      <itemPath>cosLUT.c</itemPath>
+      <itemPath>gamebg.c</itemPath>
+      <itemPath>loop.c</itemPath>
+      <itemPath>main.c</itemPath>
+      <itemPath>menu.c</itemPath>
+      <itemPath>myLib.c</itemPath>
+      <itemPath>pause.c</itemPath>
+      <itemPath>sinLUT.c</itemPath>
+      <itemPath>sprites.c</itemPath>
+      <itemPath>startbg.c</itemPath>
+      <itemPath>strike1.c</itemPath>
+      <itemPath>win.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <output>1372</output>
+        </linkerTool>
+      </compileType>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>1372</output>
+        </linkerTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
